@@ -1,6 +1,10 @@
 
+#
 # Mantener seguimiento de librerias necesarias para la correcta visualización y funcionamiento del sitio web.
+# ===========================================================================================================
+#
 
+# animate.css
 bower_components/*
 !bower_components/animate.css
 
@@ -8,6 +12,7 @@ bower_components/animate.css/source
 bower_components/animate.css/*.*
 !bower_components/animate.css/animate*.*
 
+# Bootstrap
 !bower_components/bootstrap
 bower_components/bootstrap/*.*
 !bower_components/bootstrap/dist/
@@ -16,5 +21,9 @@ bower_components/bootstrap/less
 bower_components/bootstrap/js
 bower_components/bootstrap/grunt
 
+# JQuery
 !bower_components/jquery
 bower_components/jquery/src
+
+# AngularJS
+!bower_components/angular
