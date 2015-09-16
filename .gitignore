@@ -1,0 +1,11 @@
+
+# Mantener seguimiento de librerias necesarias para la correcta visualización y funcionamiento del sitio web.
+
+bower_components/*
+!bower_components/animate.css
+
+bower_components/animate.css/source
+bower_components/animate.css/*.*
+!bower_components/animate.css/animate*.*
+
+

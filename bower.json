@@ -5,5 +5,8 @@
     "RickySSD <ricky6982@gmail.com>"
   ],
   "description": "About.me",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "~3.4.0"
+  }
 }
