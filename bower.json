@@ -7,6 +7,7 @@
   "description": "About.me",
   "license": "MIT",
   "dependencies": {
-    "animate.css": "~3.4.0"
+    "animate.css": "~3.4.0",
+    "bootstrap": "~3.3.5"
   }
 }
