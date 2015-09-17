@@ -7,7 +7,8 @@ app.config([
 
         $stateProvider
             .state('home', {
-                url: '/home'
+                url: '/home',
+                templateUrl: 'template/home.html'
             })
         ;
     }
