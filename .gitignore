@@ -27,3 +27,8 @@ bower_components/jquery/src
 
 # AngularJS
 !bower_components/angular
+
+# UI-Router
+!bower_components/ui-route/
+bower_components/ui-route/*.*
+bower_components/ui-route/src

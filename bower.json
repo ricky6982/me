@@ -9,6 +9,7 @@
   "dependencies": {
     "animate.css": "~3.4.0",
     "bootstrap": "~3.3.5",
-    "angular": "~1.4.5"
+    "angular": "~1.4.5",
+    "ui-route": "~0.2.15"
   }
 }
