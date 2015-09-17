@@ -29,6 +29,6 @@ bower_components/jquery/src
 !bower_components/angular
 
 # UI-Router
-!bower_components/ui-route/
-bower_components/ui-route/*.*
-bower_components/ui-route/src
+!bower_components/angular-ui-router/
+bower_components/angular-ui-router/*.*
+bower_components/angular-ui-router/src
