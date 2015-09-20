@@ -26,6 +26,10 @@ app.config([
                 url: '/tools',
                 templateUrl: 'template/tools.html'
             })
+            .state('enviroment', {
+                url: '/enviroment',
+                templateUrl: 'template/enviroment.html'
+            })
         ;
     }
 ]);
