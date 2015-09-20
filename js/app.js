@@ -22,6 +22,10 @@ app.config([
                 url: '/library',
                 templateUrl: 'template/library.html'
             })
+            .state('tools', {
+                url: '/tools',
+                templateUrl: 'template/tools.html'
+            })
         ;
     }
 ]);
