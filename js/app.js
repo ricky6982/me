@@ -16,7 +16,7 @@ app.config([
             })
             .state('frameworks', {
                 url: '/frameworks',
-                templateUrl: 'template/_frameworks.html'
+                templateUrl: 'template/frameworks.html'
             })
         ;
     }
