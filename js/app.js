@@ -12,7 +12,7 @@ app.config([
             })
             .state('languages', {
                 url: '/languages',
-                templateUrl: 'template/_languages.html'
+                templateUrl: 'template/languages.html'
             })
             .state('frameworks', {
                 url: '/frameworks',
