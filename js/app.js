@@ -18,6 +18,10 @@ app.config([
                 url: '/frameworks',
                 templateUrl: 'template/frameworks.html'
             })
+            .state('library', {
+                url: '/library',
+                templateUrl: 'template/library.html'
+            })
         ;
     }
 ]);
