@@ -18,7 +18,15 @@
 
     <title>Acerca de mi</title>
 </head>
-<body ng-app="app" class="animated">
-    <div  ui-view></div>
+<body ng-app="app" ng-controller="mainCtrl">
+    <div class="titulo animated fadeInUp">{ About: me <span class="beta animated flip">beta</span></div>
+
+    <div class="text-center" style="margin-top: 50px;">
+        <img src="img/me.jpg" class="pictureProfile animated zoomInLeft">
+    </div>
+
+    <div class="subtitulo text-center animated flipInY">Ricardo Sarapura</div>
+
+    <div id="vista" ui-view></div>
 </body>
 </html>

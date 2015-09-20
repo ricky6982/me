@@ -33,3 +33,38 @@ legend {
 .text-left {
   text-align: left;
 }
+.bg-primary,
+.bg-danger {
+  padding: 25px 5px 40px 5px;
+}
+.bg-primary h1,
+.bg-danger h1 {
+  font: 100%/1.5 "Roboto", Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+}
+.bg-danger {
+  background-color: #AE2C3D;
+  color: white;
+}
+.bg-primary {
+  background-color: #2B80C2;
+  color: white;
+}
+.icon {
+  border-radius: 50%;
+  border: 10px solid white;
+  background-color: white;
+  display: inline;
+  margin: 0 10px;
+}
+.lead {
+  font: 100%/1.5 "Roboto", Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  font-style: italic;
+}
+.descripcion {
+  padding: 20px;
+  line-height: 1.8em;
+}

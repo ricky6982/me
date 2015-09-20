@@ -8,8 +8,29 @@ app.config([
         $stateProvider
             .state('home', {
                 url: '/home',
-                templateUrl: 'template/home.html'
+                templateUrl: 'template/home.html',
+            })
+            .state('languages', {
+                url: '/languages',
+                templateUrl: 'template/_languages.html'
+            })
+            .state('frameworks', {
+                url: '/frameworks',
+                templateUrl: 'template/_frameworks.html'
             })
         ;
+    }
+]);
+
+app.controller('mainCtrl',[
+    '$scope', '$state', '$timeout',
+    function($scope, $state, $timeout){
+        $scope.irA = function(destino){
+            // $('#vista').toggleClass('animated fadeOutUp');
+            // $timeout(function(){
+            //     $state.go(destino);
+            // }, 1000);
+
+        };
     }
 ]);
