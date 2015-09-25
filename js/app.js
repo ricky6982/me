@@ -30,6 +30,10 @@ app.config([
                 url: '/enviroment',
                 templateUrl: 'template/enviroment.html'
             })
+            .state('projects', {
+                url: '/projects',
+                templateUrl: 'template/projects.html'
+            })
         ;
     }
 ]);

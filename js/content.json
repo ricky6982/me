@@ -1,0 +1,10 @@
+[
+    {
+        "languages": {
+            "icon": "php.png",
+            "name": "PHP",
+            "descripcion": "PHP para muchos extremadamente flexible que sin el debido conocimiento se pueden hacer verdaderos desastres, sin embargo, utilizando un framework adecuado se pueden crear aplicaciones web escalables y faciles de mantener."
+
+        }
+    }
+]
